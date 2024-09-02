@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    background-color: orange;
+    height: 60px;
+}
+
+.nav_box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}.my_shop{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.cart{
+    cursor: pointer;
+    margin: 10px;
+}
+
+.cart span:nth-child(1){
+    font-size: 2rem;
+    color: white;
+}
+
+.cart span:nth-child(2){
+    padding: 0 3px;
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: -15px;
+    border-radius: 50%;
+    
+}
